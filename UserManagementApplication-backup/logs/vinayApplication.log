@@ -1,0 +1,67 @@
+2023-07-31T13:55:40.526-04:00  INFO 5276 --- [main] u.UserManagementApplication              : Starting UserManagementApplication using Java 19.0.2 with PID 5276 (C:\Users\VINAY\IdeaProjects\UserManagementApplication\target\classes started by VINAY in C:\Users\VINAY\IdeaProjects\UserManagementApplication)
+2023-07-31T13:55:40.530-04:00  INFO 5276 --- [main] u.UserManagementApplication              : No active profile set, falling back to 1 default profile: "default"
+2023-07-31T13:55:41.612-04:00  INFO 5276 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-31T13:55:41.622-04:00  INFO 5276 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-31T13:55:41.622-04:00  INFO 5276 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-31T13:55:41.716-04:00  INFO 5276 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-31T13:55:41.716-04:00  INFO 5276 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1112 ms
+2023-07-31T13:55:42.121-04:00  INFO 5276 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-31T13:55:42.131-04:00  INFO 5276 --- [main] u.UserManagementApplication              : Started UserManagementApplication in 2.286 seconds (process running for 2.69)
+2023-07-31T13:55:42.134-04:00  INFO 5276 --- [main] u.UserManagementApplication              : hello vinay
+2023-07-31T13:57:36.547-04:00 ERROR 8032 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level' to java.util.Map<java.lang.String, org.springframework.boot.logging.LogLevel>:
+
+    Property: logging.level
+    Value: "info"
+    Origin: class path resource [application.properties] - 2:15
+    Reason: org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [java.lang.String] to type [java.util.Map<java.lang.String, org.springframework.boot.logging.LogLevel>]
+
+Action:
+
+Update your application's configuration
+
+2023-07-31T13:58:35.266-04:00 ERROR 7332 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level' to java.util.Map<java.lang.String, org.springframework.boot.logging.LogLevel>:
+
+    Property: logging.level
+    Value: "info"
+    Origin: class path resource [application.properties] - 2:15
+    Reason: org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [java.lang.String] to type [java.util.Map<java.lang.String, org.springframework.boot.logging.LogLevel>]
+
+Action:
+
+Update your application's configuration
+
+2023-07-31T13:59:22.582-04:00 ERROR 8704 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level' to java.util.Map<java.lang.String, org.springframework.boot.logging.LogLevel>:
+
+    Property: logging.level
+    Value: "error"
+    Origin: class path resource [application.properties] - 2:15
+    Reason: org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [java.lang.String] to type [java.util.Map<java.lang.String, org.springframework.boot.logging.LogLevel>]
+
+Action:
+
+Update your application's configuration
+
